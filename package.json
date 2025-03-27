@@ -1,0 +1,31 @@
+{
+  "name": "bdd-web-automation",
+  "version": "1.0.0",
+  "description": "This project is created as automation testing portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "run",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jihanfarah/BDD-Web-Automation.git"
+  },
+  "author": "jihan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jihanfarah/BDD-Web-Automation/issues"
+  },
+  "homepage": "https://github.com/jihanfarah/BDD-Web-Automation#readme",
+  "devDependencies": {
+    "@wdio/cli": "^9.12.1",
+    "@wdio/cucumber-framework": "^9.12.1",
+    "@wdio/local-runner": "^9.12.1",
+    "@wdio/spec-reporter": "^9.11.0",
+    "@wdio/visual-service": "^6.3.3",
+    "wdio-wait-for": "^3.1.0"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7"
+  }
+}
