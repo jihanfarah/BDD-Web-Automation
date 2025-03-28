@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "run",
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio": "wdio run ./config/wdio.conf.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,9 @@
     "wdio-wait-for": "^3.1.0"
   },
   "dependencies": {
-    "cucumber": "^6.0.7"
+    "cucumber": "^6.0.7",
+    "fs": "^0.0.1-security",
+    "moment": "^2.30.1",
+    "path": "^0.12.7"
   }
 }
